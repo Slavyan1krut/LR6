@@ -27,3 +27,74 @@ _Цель лабораторной работы_: изучение базовы�
 Для наглядной работы с репозиторием необходимо сделать изменения и зафиксировать их, оставляя комментарии. Поочередно в репозиторий были добавлены три текстовых файла: minecraft.txt, fnaf.txt, fnaf2.txt, созданные командой _echo "text" >> name.txt_. Извенения фиксировались командой _git add_, для создания коммита - _git commit -m "text"_, для обновления информации в репозитории - _git push_ (_см. screenshots/11_1.PNG; screenshots/11_2.PNG; screenshots/11_3.PNG_).
 ## Пункт 12
 С помощью _git revert HEAD --no-edit_ был осуществлен откат коммита (_см. screenshots/12.PNG_).
+
+# Лог команд
+git config --global user.name "4217 Купцова П. Д."
+
+git config --global user.email "polina528740@gmail.com"
+
+cd /c/infa
+
+git clone https://github.com/dmit-p0/LR6
+
+ls -1
+
+git pull
+
+ls -1
+
+git reflog
+
+git log
+
+git checkout new_file
+
+ls -1
+
+git checkout master
+
+ls -1
+
+git merge new_file
+
+ls -1
+
+git branch -d new_file
+
+echo "майнкрафт это моя жизнь" >> minecraft.txt
+
+git status
+
+git add minecraft.txt
+
+git status
+
+git commit -m "Добавлен первый файл"
+
+git push
+
+echo "i always come back" >> fnaf.txt
+
+git status
+
+git add fnaf.txt
+
+git status
+
+git commit -m "Добавлен второй файл"
+
+git push
+
+echo "o holero cho to freddy fazbear" >> fnaf2.txt
+
+git status
+
+git add fnaf2.txt
+
+git status
+
+git commit -m "Добавлен третий файл"
+
+git push
+
+git revert HEAD --no-edit
