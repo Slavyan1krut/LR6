@@ -119,4 +119,5 @@ git revert HEAD --no-edit
 921f53b - 2020-11-21 - Kurtyanik: Обновление информации
 
 c08a654 - 2020-11-21 - Kurtyanik: Файл создан пустым
+
 3c6e913 - 2020-11-21 - Kurtyanik: Initial commit
