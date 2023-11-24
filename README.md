@@ -98,3 +98,101 @@ git commit -m "Добавлен третий файл"
 git push
 
 git revert HEAD --no-edit
+
+# История операций
+
+commit 3ee67ada4988db94bb60527a2d9d9c8da5db2803 (HEAD -> master)
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:14:46 2023 +0300
+
+    Revert "Добавлен третий файл"
+
+    This reverts commit 99085342123d1fb382076763f6318e7a9497f916.
+
+commit 99085342123d1fb382076763f6318e7a9497f916 (origin/master, origin/HEAD)
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:12:00 2023 +0300
+
+    Добавлен третий файл
+
+commit 8b6398cd907c7d570001d2543f72f6a086a98c04
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:07:00 2023 +0300
+
+    Добавлен второй файл
+
+commit 550a502bb90b609f22cb7fd6d80543c5417ca2b6
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:04:28 2023 +0300
+
+    Добавлен первый файл
+
+commit 06dca9d4210ac23234636c2c64b6046d0a450296
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 14:31:52 2023 +0300
+
+    Проба пера
+
+commit 8834cc825ccb762e6ed7abb69a4023f24088f6a2 (origin/new_file)
+Author: dmit-p0 <113605601+dmit-p0@users.noreply.github.com>
+Date:   Fri Nov 24 01:01:03 2023 +0300
+
+    Update new_file
+
+commit 9e67ee0d2b4c01beaa5756724969bf42991fc4b2
+:...skipping...
+commit 3ee67ada4988db94bb60527a2d9d9c8da5db2803 (HEAD -> master)
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:14:46 2023 +0300
+
+    Revert "Добавлен третий файл"
+
+    This reverts commit 99085342123d1fb382076763f6318e7a9497f916.
+
+commit 99085342123d1fb382076763f6318e7a9497f916 (origin/master, origin/HEAD)
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:12:00 2023 +0300
+
+    Добавлен третий файл
+
+commit 8b6398cd907c7d570001d2543f72f6a086a98c04
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:07:00 2023 +0300
+
+    Добавлен второй файл
+
+commit 550a502bb90b609f22cb7fd6d80543c5417ca2b6
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 15:04:28 2023 +0300
+
+    Добавлен первый файл
+
+commit 06dca9d4210ac23234636c2c64b6046d0a450296
+Author: 4217 Купцова П. Д <polina528740@gmail.com>
+Date:   Fri Nov 24 14:31:52 2023 +0300
+
+    Проба пера
+
+commit 8834cc825ccb762e6ed7abb69a4023f24088f6a2 (origin/new_file)
+Author: dmit-p0 <113605601+dmit-p0@users.noreply.github.com>
+Date:   Fri Nov 24 01:01:03 2023 +0300
+
+    Update new_file
+
+commit 9e67ee0d2b4c01beaa5756724969bf42991fc4b2
+Author: dmit-p0 <113605601+dmit-p0@users.noreply.github.com>
+Date:   Fri Nov 24 00:27:20 2023 +0300
+
+    Create new_file
+
+commit 921f53b8d0cebf542c791cf31f04e9b792f385a4
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 20:09:49 2020 +0300
+
+    Обновление информации
+
+commit c08a654a63cfc3a7146b2b7015884d9020f5cbf5
+Author: Kurtyanik <45309985+Kurtyanik@users.noreply.github.com>
+Date:   Sat Nov 21 20:02:16 2020 +0300
+
+    Файл создан пустым
